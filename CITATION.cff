@@ -1,0 +1,7 @@
+@misc{photon_billiard_local_governor,
+  title = {Local Governor Photon Billiard Simulation: Proximity-Based Governance in Computational Billiard Systems},
+  author = {Alex},
+  year = {2025},
+  url = {https://github.com/alexsysctrl/local-governor-photon-billiard},
+  note = {Computational investigation of proximity-based governance in photon billiard dynamics}
+}
