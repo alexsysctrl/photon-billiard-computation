@@ -1,0 +1,1296 @@
+{
+  "experiments": [],
+  "shape_comparison": [
+    {
+      "container": "sphere(r=1.0)",
+      "initial_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_dir": [
+        1.0,
+        0.3,
+        0.0
+      ],
+      "total_bounces": 2000,
+      "total_path_length": 3998.99998,
+      "wall_entropy": -0.0,
+      "tof_mean": 1.9995,
+      "tof_std": 0.022355,
+      "tof_skewness": -44.687812,
+      "tof_kurtosis": 1995.0005,
+      "mean_angle_change": 180.0,
+      "std_angle_change": 0.0,
+      "recurrence_mean": 1.004925,
+      "recurrence_std": 0.999988,
+      "path_per_collision": 1.9995,
+      "transition_entropy": 0.0,
+      "sequence_hash": "8330d6e2ba64caeb",
+      "unique_walls": 1,
+      "wall_distribution": {
+        "sphere": 2000
+      },
+      "poincare": {
+        "dx_mean": -0.95782629,
+        "dx_std": 0.0,
+        "dy_mean": -0.28734789,
+        "dy_std": 0.0,
+        "dz_mean": 0.0,
+        "dz_std": 0.0
+      },
+      "transition_matrix_shape": [
+        1,
+        1
+      ]
+    },
+    {
+      "container": "cube(s=2.0)",
+      "initial_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_dir": [
+        1.0,
+        0.3,
+        0.0
+      ],
+      "total_bounces": 2000,
+      "total_path_length": 3212.13428,
+      "wall_entropy": 1.77975,
+      "tof_mean": 1.606067,
+      "tof_std": 0.647689,
+      "tof_skewness": -1.002756,
+      "tof_kurtosis": -0.562162,
+      "mean_angle_change": 120.512639,
+      "std_angle_change": 47.672949,
+      "recurrence_mean": 1.452879,
+      "recurrence_std": 0.740184,
+      "path_per_collision": 1.606067,
+      "transition_entropy": 1.03311,
+      "sequence_hash": "5fe87f2e4ccc6bc8",
+      "unique_walls": 4,
+      "wall_distribution": {
+        "x+": 769,
+        "x-": 769,
+        "y+": 231,
+        "y-": 231
+      },
+      "poincare": {
+        "dx_mean": 0.0862043661,
+        "dx_std": 0.9539392061764005,
+        "dy_mean": -0.025861310100000003,
+        "dy_std": 0.2861817648407455,
+        "dz_mean": 0.0,
+        "dz_std": 0.0
+      },
+      "transition_matrix_shape": [
+        4,
+        4
+      ]
+    },
+    {
+      "container": "cylinder(r=1.0,h=2.0)",
+      "initial_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_dir": [
+        1.0,
+        0.3,
+        0.0
+      ],
+      "total_bounces": 2000,
+      "total_path_length": 3998.99998,
+      "wall_entropy": -0.0,
+      "tof_mean": 1.9995,
+      "tof_std": 0.022355,
+      "tof_skewness": -44.687812,
+      "tof_kurtosis": 1995.0005,
+      "mean_angle_change": 180.0,
+      "std_angle_change": 0.0,
+      "recurrence_mean": 1.004925,
+      "recurrence_std": 0.999988,
+      "path_per_collision": 1.9995,
+      "transition_entropy": 0.0,
+      "sequence_hash": "b8db77f08f4e9f30",
+      "unique_walls": 1,
+      "wall_distribution": {
+        "cyl-side": 2000
+      },
+      "poincare": {
+        "dx_mean": -0.95782629,
+        "dx_std": 0.0,
+        "dy_mean": -0.28734789,
+        "dy_std": 0.0,
+        "dz_mean": 0.0,
+        "dz_std": 0.0
+      },
+      "transition_matrix_shape": [
+        1,
+        1
+      ]
+    },
+    {
+      "container": "ellipsoid(a=1.5,b=1.0,c=0.8)",
+      "initial_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_dir": [
+        1.0,
+        0.3,
+        0.0
+      ],
+      "total_bounces": 2000,
+      "total_path_length": 4440.084742,
+      "wall_entropy": -0.0,
+      "tof_mean": 2.220042,
+      "tof_std": 0.522004,
+      "tof_skewness": -0.263636,
+      "tof_kurtosis": -1.465615,
+      "mean_angle_change": 129.574008,
+      "std_angle_change": 29.463777,
+      "recurrence_mean": 1.641114,
+      "recurrence_std": 0.893855,
+      "path_per_collision": 2.220042,
+      "transition_entropy": 0.0,
+      "sequence_hash": "16b6aade8a6870fd",
+      "unique_walls": 1,
+      "wall_distribution": {
+        "ellipsoid": 2000
+      },
+      "poincare": {
+        "dx_mean": -0.0076220623499999975,
+        "dx_std": 0.7672019441639477,
+        "dy_mean": -0.5904379030000001,
+        "dy_std": 0.250451918531082,
+        "dz_mean": 0.0,
+        "dz_std": 0.0
+      },
+      "transition_matrix_shape": [
+        1,
+        1
+      ]
+    },
+    {
+      "container": "sinai(s=2.0,obs=0.3)",
+      "initial_pos": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "initial_dir": [
+        1.0,
+        0.3,
+        0.0
+      ],
+      "total_bounces": 2000,
+      "total_path_length": 2392.343799,
+      "wall_entropy": 2.31975,
+      "tof_mean": 1.196172,
+      "tof_std": 0.599712,
+      "tof_skewness": 0.257111,
+      "tof_kurtosis": -1.084088,
+      "mean_angle_change": 118.330234,
+      "std_angle_change": 44.073615,
+      "recurrence_mean": 1.314137,
+      "recurrence_std": 0.626478,
+      "path_per_collision": 1.196172,
+      "transition_entropy": 1.970396,
+      "sequence_hash": "102f40f85c767cc5",
+      "unique_walls": 5,
+      "wall_distribution": {
+        "x+": 418,
+        "x-": 432,
+        "y+": 394,
+        "sinai-obs": 384,
+        "y-": 372
+      },
+      "poincare": {
+        "dx_mean": 0.03294147310000001,
+        "dx_std": 0.7378980604421792,
+        "dy_mean": 0.06316549995000002,
+        "dy_std": 0.6711418859304729,
+        "dz_mean": 0.0,
+        "dz_std": 0.0
+      },
+      "transition_matrix_shape": [
+        5,
+        5
+      ]
+    }
+  ],
+  "sensitivity_analysis": [
+    {
+      "final_divergence": 0.00058043,
+      "lyapunov_exponent": 0.00759981,
+      "kl_divergence": 0.0,
+      "mean_divergence": 0.00029036,
+      "max_divergence": 0.00058043,
+      "container": "sphere(r=1.0)",
+      "perturbation": [
+        1e-06,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "final_divergence": 0.00193477,
+      "lyapunov_exponent": 0.00761591,
+      "kl_divergence": 0.0,
+      "mean_divergence": 0.00096787,
+      "max_divergence": 0.00193477,
+      "container": "sphere(r=1.0)",
+      "perturbation": [
+        0.0,
+        1e-06,
+        0.0
+      ]
+    },
+    {
+      "final_divergence": 5.11e-06,
+      "lyapunov_exponent": 0.00163283,
+      "kl_divergence": 0.0,
+      "mean_divergence": 4.44e-06,
+      "max_divergence": 6.96e-06,
+      "container": "sphere(r=1.0)",
+      "perturbation": [
+        0.0,
+        0.0,
+        1e-06
+      ]
+    },
+    {
+      "final_divergence": 0.00135435,
+      "lyapunov_exponent": 0.00702926,
+      "kl_divergence": 0.0,
+      "mean_divergence": 0.00067756,
+      "max_divergence": 0.00135435,
+      "container": "sphere(r=1.0)",
+      "perturbation": [
+        1e-06,
+        1e-06,
+        1e-06
+      ]
+    },
+    {
+      "final_divergence": 1e-06,
+      "lyapunov_exponent": 0.00120518,
+      "kl_divergence": 0.0,
+      "mean_divergence": 4.6e-07,
+      "max_divergence": 1e-06,
+      "container": "cube(s=2.0)",
+      "perturbation": [
+        1e-06,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "final_divergence": 3.34e-06,
+      "lyapunov_exponent": 0.00120718,
+      "kl_divergence": 0.0,
+      "mean_divergence": 1.54e-06,
+      "max_divergence": 3.34e-06,
+      "container": "cube(s=2.0)",
+      "perturbation": [
+        0.0,
+        1e-06,
+        0.0
+      ]
+    },
+    {
+      "final_divergence": 1e-06,
+      "lyapunov_exponent": 0.0,
+      "kl_divergence": 0.0,
+      "mean_divergence": 1e-06,
+      "max_divergence": 1e-06,
+      "container": "cube(s=2.0)",
+      "perturbation": [
+        0.0,
+        0.0,
+        1e-06
+      ]
+    },
+    {
+      "final_divergence": 2.54e-06,
+      "lyapunov_exponent": 0.00073537,
+      "kl_divergence": 0.0,
+      "mean_divergence": 1.53e-06,
+      "max_divergence": 2.54e-06,
+      "container": "cube(s=2.0)",
+      "perturbation": [
+        1e-06,
+        1e-06,
+        1e-06
+      ]
+    },
+    {
+      "final_divergence": 0.00058043,
+      "lyapunov_exponent": 0.00759981,
+      "kl_divergence": 0.0,
+      "mean_divergence": 0.00029036,
+      "max_divergence": 0.00058043,
+      "container": "cylinder(r=1.0,h=2.0)",
+      "perturbation": [
+        1e-06,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "final_divergence": 0.00193477,
+      "lyapunov_exponent": 0.00761591,
+      "kl_divergence": 0.0,
+      "mean_divergence": 0.00096787,
+      "max_divergence": 0.00193477,
+      "container": "cylinder(r=1.0,h=2.0)",
+      "perturbation": [
+        0.0,
+        1e-06,
+        0.0
+      ]
+    },
+    {
+      "final_divergence": 1e-06,
+      "lyapunov_exponent": 0.0,
+      "kl_divergence": 0.0,
+      "mean_divergence": 1e-06,
+      "max_divergence": 1e-06,
+      "container": "cylinder(r=1.0,h=2.0)",
+      "perturbation": [
+        0.0,
+        0.0,
+        1e-06
+      ]
+    },
+    {
+      "final_divergence": 0.00135435,
+      "lyapunov_exponent": 0.00702926,
+      "kl_divergence": 0.0,
+      "mean_divergence": 0.00067751,
+      "max_divergence": 0.00135435,
+      "container": "cylinder(r=1.0,h=2.0)",
+      "perturbation": [
+        1e-06,
+        1e-06,
+        1e-06
+      ]
+    },
+    {
+      "final_divergence": 0.00043975,
+      "lyapunov_exponent": 0.00735831,
+      "kl_divergence": 0.0,
+      "mean_divergence": 9.539e-05,
+      "max_divergence": 0.00043975,
+      "container": "ellipsoid(a=1.5,b=1.0,c=0.8)",
+      "perturbation": [
+        1e-06,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "final_divergence": 0.00146599,
+      "lyapunov_exponent": 0.00732632,
+      "kl_divergence": 0.0,
+      "mean_divergence": 0.00031796,
+      "max_divergence": 0.00146599,
+      "container": "ellipsoid(a=1.5,b=1.0,c=0.8)",
+      "perturbation": [
+        0.0,
+        1e-06,
+        0.0
+      ]
+    },
+    {
+      "final_divergence": 1.82952086,
+      "lyapunov_exponent": 0.014434,
+      "kl_divergence": 0.0,
+      "mean_divergence": 1.65665633,
+      "max_divergence": 2.94241838,
+      "container": "ellipsoid(a=1.5,b=1.0,c=0.8)",
+      "perturbation": [
+        0.0,
+        0.0,
+        1e-06
+      ]
+    },
+    {
+      "final_divergence": 1.82946934,
+      "lyapunov_exponent": 0.01424549,
+      "kl_divergence": 0.0,
+      "mean_divergence": 1.65661103,
+      "max_divergence": 2.94242053,
+      "container": "ellipsoid(a=1.5,b=1.0,c=0.8)",
+      "perturbation": [
+        1e-06,
+        1e-06,
+        1e-06
+      ]
+    },
+    {
+      "final_divergence": 2.12473205,
+      "lyapunov_exponent": 0.01578892,
+      "kl_divergence": 0.00605856,
+      "mean_divergence": 1.35481397,
+      "max_divergence": 2.80130724,
+      "container": "sinai(s=2.0,obs=0.3)",
+      "perturbation": [
+        1e-06,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "final_divergence": 1.16914292,
+      "lyapunov_exponent": 0.01398577,
+      "kl_divergence": 0.0005597,
+      "mean_divergence": 1.30675374,
+      "max_divergence": 2.73356912,
+      "container": "sinai(s=2.0,obs=0.3)",
+      "perturbation": [
+        0.0,
+        1e-06,
+        0.0
+      ]
+    },
+    {
+      "final_divergence": 1e-06,
+      "lyapunov_exponent": 0.0,
+      "kl_divergence": 0.0,
+      "mean_divergence": 1e-06,
+      "max_divergence": 1e-06,
+      "container": "sinai(s=2.0,obs=0.3)",
+      "perturbation": [
+        0.0,
+        0.0,
+        1e-06
+      ]
+    },
+    {
+      "final_divergence": 2.24634554,
+      "lyapunov_exponent": 0.01443987,
+      "kl_divergence": 0.00117968,
+      "mean_divergence": 1.29259975,
+      "max_divergence": 2.76724675,
+      "container": "sinai(s=2.0,obs=0.3)",
+      "perturbation": [
+        1e-06,
+        1e-06,
+        1e-06
+      ]
+    }
+  ],
+  "statistical_signatures": [
+    {
+      "container": "sphere(r=1.0)",
+      "n_trajectories": 50,
+      "entropy_mean": 0.0,
+      "entropy_std": 0.0,
+      "tof_mean_mean": 1.571512,
+      "tof_mean_std": 0.322548,
+      "lyapunov_mean": -0.00051,
+      "signature_vectors": [
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 150.899885
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 76.283178
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 67.101822
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 139.845315
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 137.566169
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 89.273981
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 136.82899
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 140.703512
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 61.368153
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 125.612504
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 40.774566
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 74.693147
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 133.8642
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 75.500879
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 80.671172
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 144.859361
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 77.966245
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 90.080486
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 124.066258
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -31.575323,
+          "tof_kurt": 995.001001,
+          "transition_entropy": 0.0,
+          "mean_angle": 138.556407
+        }
+      ]
+    },
+    {
+      "container": "cube(s=2.0)",
+      "n_trajectories": 50,
+      "entropy_mean": 2.360769,
+      "entropy_std": 0.191592,
+      "tof_mean_mean": 1.29627,
+      "tof_mean_std": 0.114794,
+      "lyapunov_mean": 0.022802,
+      "signature_vectors": [
+        {
+          "entropy": 2.419744,
+          "tof_skew": -0.005646,
+          "tof_kurt": -1.382689,
+          "transition_entropy": 1.865159,
+          "mean_angle": 84.664863
+        },
+        {
+          "entropy": 2.168439,
+          "tof_skew": -0.249052,
+          "tof_kurt": -1.379783,
+          "transition_entropy": 1.600925,
+          "mean_angle": 93.918573
+        },
+        {
+          "entropy": 2.252048,
+          "tof_skew": -0.457482,
+          "tof_kurt": -1.295469,
+          "transition_entropy": 1.656416,
+          "mean_angle": 101.783007
+        },
+        {
+          "entropy": 2.081772,
+          "tof_skew": 0.026107,
+          "tof_kurt": -1.10401,
+          "transition_entropy": 0.838908,
+          "mean_angle": 88.924953
+        },
+        {
+          "entropy": 2.43619,
+          "tof_skew": 0.26551,
+          "tof_kurt": -1.088907,
+          "transition_entropy": 1.834573,
+          "mean_angle": 79.031513
+        },
+        {
+          "entropy": 2.436206,
+          "tof_skew": 0.212362,
+          "tof_kurt": -1.188985,
+          "transition_entropy": 1.890317,
+          "mean_angle": 79.884748
+        },
+        {
+          "entropy": 2.564499,
+          "tof_skew": 0.475546,
+          "tof_kurt": -0.796111,
+          "transition_entropy": 2.010905,
+          "mean_angle": 72.135071
+        },
+        {
+          "entropy": 2.498414,
+          "tof_skew": 0.362363,
+          "tof_kurt": -0.983021,
+          "transition_entropy": 1.878089,
+          "mean_angle": 75.916444
+        },
+        {
+          "entropy": 2.548506,
+          "tof_skew": 0.421674,
+          "tof_kurt": -0.896171,
+          "transition_entropy": 1.991057,
+          "mean_angle": 73.329943
+        },
+        {
+          "entropy": 2.569891,
+          "tof_skew": 0.5002,
+          "tof_kurt": -0.781417,
+          "transition_entropy": 2.034209,
+          "mean_angle": 71.880077
+        },
+        {
+          "entropy": 2.184583,
+          "tof_skew": -0.633977,
+          "tof_kurt": -1.117965,
+          "transition_entropy": 1.576936,
+          "mean_angle": 108.412601
+        },
+        {
+          "entropy": 2.357342,
+          "tof_skew": 0.06427,
+          "tof_kurt": -1.318805,
+          "transition_entropy": 1.799984,
+          "mean_angle": 84.230999
+        },
+        {
+          "entropy": 2.010336,
+          "tof_skew": -0.375385,
+          "tof_kurt": -1.284413,
+          "transition_entropy": 1.270096,
+          "mean_angle": 98.282345
+        },
+        {
+          "entropy": 2.502415,
+          "tof_skew": 0.384881,
+          "tof_kurt": -1.029732,
+          "transition_entropy": 1.844383,
+          "mean_angle": 75.737446
+        },
+        {
+          "entropy": 2.400007,
+          "tof_skew": 0.045662,
+          "tof_kurt": -1.371957,
+          "transition_entropy": 1.835483,
+          "mean_angle": 83.574006
+        },
+        {
+          "entropy": 2.565043,
+          "tof_skew": 0.456899,
+          "tof_kurt": -0.87242,
+          "transition_entropy": 2.040784,
+          "mean_angle": 72.362516
+        },
+        {
+          "entropy": 2.232101,
+          "tof_skew": -0.428212,
+          "tof_kurt": -1.296508,
+          "transition_entropy": 1.633648,
+          "mean_angle": 100.003773
+        },
+        {
+          "entropy": 2.420098,
+          "tof_skew": 0.257246,
+          "tof_kurt": -1.088386,
+          "transition_entropy": 1.767648,
+          "mean_angle": 79.586694
+        },
+        {
+          "entropy": 2.519892,
+          "tof_skew": 0.423616,
+          "tof_kurt": -0.934862,
+          "transition_entropy": 1.769829,
+          "mean_angle": 74.778875
+        },
+        {
+          "entropy": 2.560929,
+          "tof_skew": 0.494339,
+          "tof_kurt": -0.77005,
+          "transition_entropy": 1.986339,
+          "mean_angle": 72.34696
+        }
+      ]
+    },
+    {
+      "container": "cylinder(r=1.0,h=2.0)",
+      "n_trajectories": 50,
+      "entropy_mean": 1.238922,
+      "entropy_std": 0.39176,
+      "tof_mean_mean": 1.415515,
+      "tof_mean_std": 0.188121,
+      "lyapunov_mean": -0.000198,
+      "signature_vectors": [
+        {
+          "entropy": 0.148059,
+          "tof_skew": -6.501656,
+          "tof_kurt": 43.646092,
+          "transition_entropy": 0.050138,
+          "mean_angle": 89.426246
+        },
+        {
+          "entropy": 1.467402,
+          "tof_skew": -0.027886,
+          "tof_kurt": -1.228059,
+          "transition_entropy": 0.464329,
+          "mean_angle": 90.364374
+        },
+        {
+          "entropy": 1.483261,
+          "tof_skew": -0.00622,
+          "tof_kurt": -1.205325,
+          "transition_entropy": 0.422674,
+          "mean_angle": 81.395977
+        },
+        {
+          "entropy": 1.56405,
+          "tof_skew": -0.175641,
+          "tof_kurt": -1.31011,
+          "transition_entropy": 0.914445,
+          "mean_angle": 93.017654
+        },
+        {
+          "entropy": 1.308143,
+          "tof_skew": -0.370045,
+          "tof_kurt": -1.28027,
+          "transition_entropy": 0.518753,
+          "mean_angle": 98.192239
+        },
+        {
+          "entropy": 0.830983,
+          "tof_skew": -1.492555,
+          "tof_kurt": 0.780697,
+          "transition_entropy": 0.313766,
+          "mean_angle": 129.271747
+        },
+        {
+          "entropy": 1.408707,
+          "tof_skew": -0.14187,
+          "tof_kurt": -1.303646,
+          "transition_entropy": 0.522394,
+          "mean_angle": 92.46954
+        },
+        {
+          "entropy": 0.766823,
+          "tof_skew": -1.675138,
+          "tof_kurt": 1.385575,
+          "transition_entropy": 0.28589,
+          "mean_angle": 97.407933
+        },
+        {
+          "entropy": 0.66475,
+          "tof_skew": -2.010354,
+          "tof_kurt": 2.677597,
+          "transition_entropy": 0.243475,
+          "mean_angle": 30.763938
+        },
+        {
+          "entropy": 0.676147,
+          "tof_skew": -1.96396,
+          "tof_kurt": 2.499615,
+          "transition_entropy": 0.248154,
+          "mean_angle": 107.85231
+        },
+        {
+          "entropy": 0.236325,
+          "tof_skew": -4.77197,
+          "tof_kurt": 22.68553,
+          "transition_entropy": 0.08092,
+          "mean_angle": 111.720626
+        },
+        {
+          "entropy": 1.512511,
+          "tof_skew": -0.003449,
+          "tof_kurt": -1.224219,
+          "transition_entropy": 0.531619,
+          "mean_angle": 80.050244
+        },
+        {
+          "entropy": 1.519726,
+          "tof_skew": -0.013818,
+          "tof_kurt": -1.215883,
+          "transition_entropy": 0.602784,
+          "mean_angle": 90.148344
+        },
+        {
+          "entropy": 1.446615,
+          "tof_skew": -0.06586,
+          "tof_kurt": -1.262921,
+          "transition_entropy": 0.496821,
+          "mean_angle": 88.788718
+        },
+        {
+          "entropy": 1.399984,
+          "tof_skew": -0.165363,
+          "tof_kurt": -1.304028,
+          "transition_entropy": 0.525006,
+          "mean_angle": 92.163985
+        },
+        {
+          "entropy": 1.434932,
+          "tof_skew": -0.088292,
+          "tof_kurt": -1.281624,
+          "transition_entropy": 0.507786,
+          "mean_angle": 91.305158
+        },
+        {
+          "entropy": 1.331168,
+          "tof_skew": -0.316758,
+          "tof_kurt": -1.29803,
+          "transition_entropy": 0.524126,
+          "mean_angle": 89.981584
+        },
+        {
+          "entropy": 1.414404,
+          "tof_skew": -0.1349,
+          "tof_kurt": -1.291715,
+          "transition_entropy": 0.519903,
+          "mean_angle": 83.331219
+        },
+        {
+          "entropy": 0.847248,
+          "tof_skew": -1.454172,
+          "tof_kurt": 0.669479,
+          "transition_entropy": 0.320878,
+          "mean_angle": 86.730887
+        },
+        {
+          "entropy": 0.903765,
+          "tof_skew": -1.30717,
+          "tof_kurt": 0.234099,
+          "transition_entropy": 0.345894,
+          "mean_angle": 128.062443
+        }
+      ]
+    },
+    {
+      "container": "ellipsoid(a=1.5,b=1.0,c=0.8)",
+      "n_trajectories": 50,
+      "entropy_mean": 0.0,
+      "entropy_std": 0.0,
+      "tof_mean_mean": 1.533385,
+      "tof_mean_std": 0.259395,
+      "lyapunov_mean": 0.000335,
+      "signature_vectors": [
+        {
+          "entropy": -0.0,
+          "tof_skew": 0.24005,
+          "tof_kurt": -0.818343,
+          "transition_entropy": 0.0,
+          "mean_angle": 84.903015
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -0.060983,
+          "tof_kurt": -1.171919,
+          "transition_entropy": 0.0,
+          "mean_angle": 136.865572
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -0.010079,
+          "tof_kurt": -0.004107,
+          "transition_entropy": 0.0,
+          "mean_angle": 131.292201
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": 0.198128,
+          "tof_kurt": -0.823915,
+          "transition_entropy": 0.0,
+          "mean_angle": 119.794982
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": 0.05649,
+          "tof_kurt": -0.798401,
+          "transition_entropy": 0.0,
+          "mean_angle": 104.828211
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -0.494197,
+          "tof_kurt": 2.242659,
+          "transition_entropy": 0.0,
+          "mean_angle": 143.956604
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -2.818932,
+          "tof_kurt": 38.513333,
+          "transition_entropy": 0.0,
+          "mean_angle": 144.593091
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -0.54172,
+          "tof_kurt": 3.356169,
+          "transition_entropy": 0.0,
+          "mean_angle": 140.37356
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -0.442079,
+          "tof_kurt": 2.003389,
+          "transition_entropy": 0.0,
+          "mean_angle": 136.353939
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": 0.113991,
+          "tof_kurt": -0.868958,
+          "transition_entropy": 0.0,
+          "mean_angle": 119.408404
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": 0.085093,
+          "tof_kurt": -1.360276,
+          "transition_entropy": 0.0,
+          "mean_angle": 128.433293
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -1.773433,
+          "tof_kurt": 19.195351,
+          "transition_entropy": 0.0,
+          "mean_angle": 144.446307
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": 0.388364,
+          "tof_kurt": -0.674232,
+          "transition_entropy": 0.0,
+          "mean_angle": 40.598955
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": 0.284843,
+          "tof_kurt": -0.546182,
+          "transition_entropy": 0.0,
+          "mean_angle": 99.565503
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": 0.313945,
+          "tof_kurt": -0.993003,
+          "transition_entropy": 0.0,
+          "mean_angle": 86.650929
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": 0.04509,
+          "tof_kurt": -1.482992,
+          "transition_entropy": 0.0,
+          "mean_angle": 114.875457
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": 0.29578,
+          "tof_kurt": -0.834844,
+          "transition_entropy": 0.0,
+          "mean_angle": 29.622492
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -0.172647,
+          "tof_kurt": 0.874805,
+          "transition_entropy": 0.0,
+          "mean_angle": 140.345416
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -0.933668,
+          "tof_kurt": 10.007629,
+          "transition_entropy": 0.0,
+          "mean_angle": 137.64877
+        },
+        {
+          "entropy": -0.0,
+          "tof_skew": -0.811742,
+          "tof_kurt": 6.67242,
+          "transition_entropy": 0.0,
+          "mean_angle": 140.34558
+        }
+      ]
+    },
+    {
+      "container": "sinai(s=2.0,obs=0.3)",
+      "n_trajectories": 50,
+      "entropy_mean": 2.741526,
+      "entropy_std": 0.075961,
+      "tof_mean_mean": 1.05338,
+      "tof_mean_std": 0.05473,
+      "lyapunov_mean": 0.074504,
+      "signature_vectors": [
+        {
+          "entropy": 2.784404,
+          "tof_skew": 0.621567,
+          "tof_kurt": -0.078232,
+          "transition_entropy": 2.321386,
+          "mean_angle": 75.913797
+        },
+        {
+          "entropy": 2.546361,
+          "tof_skew": -0.112015,
+          "tof_kurt": -1.362728,
+          "transition_entropy": 1.780833,
+          "mean_angle": 91.473135
+        },
+        {
+          "entropy": 2.644683,
+          "tof_skew": 0.419428,
+          "tof_kurt": -0.742898,
+          "transition_entropy": 2.310492,
+          "mean_angle": 99.04202
+        },
+        {
+          "entropy": 2.708089,
+          "tof_skew": 0.469137,
+          "tof_kurt": -0.609964,
+          "transition_entropy": 2.366323,
+          "mean_angle": 93.951213
+        },
+        {
+          "entropy": 2.786025,
+          "tof_skew": 0.557622,
+          "tof_kurt": -0.458644,
+          "transition_entropy": 2.449806,
+          "mean_angle": 86.44584
+        },
+        {
+          "entropy": 2.755131,
+          "tof_skew": 0.500624,
+          "tof_kurt": -0.54216,
+          "transition_entropy": 2.27374,
+          "mean_angle": 77.136055
+        },
+        {
+          "entropy": 2.635866,
+          "tof_skew": 0.49727,
+          "tof_kurt": -0.577076,
+          "transition_entropy": 2.306546,
+          "mean_angle": 100.167723
+        },
+        {
+          "entropy": 2.798901,
+          "tof_skew": 0.671785,
+          "tof_kurt": 0.108636,
+          "transition_entropy": 2.333239,
+          "mean_angle": 77.091684
+        },
+        {
+          "entropy": 2.759778,
+          "tof_skew": 0.561654,
+          "tof_kurt": -0.541314,
+          "transition_entropy": 2.429886,
+          "mean_angle": 89.261972
+        },
+        {
+          "entropy": 2.798014,
+          "tof_skew": 0.654628,
+          "tof_kurt": -0.380052,
+          "transition_entropy": 2.464862,
+          "mean_angle": 81.929293
+        },
+        {
+          "entropy": 2.804156,
+          "tof_skew": 0.670567,
+          "tof_kurt": -0.154327,
+          "transition_entropy": 2.462359,
+          "mean_angle": 80.550589
+        },
+        {
+          "entropy": 2.793115,
+          "tof_skew": 0.676183,
+          "tof_kurt": -0.209838,
+          "transition_entropy": 2.329213,
+          "mean_angle": 77.174549
+        },
+        {
+          "entropy": 2.66706,
+          "tof_skew": 0.1874,
+          "tof_kurt": -1.125092,
+          "transition_entropy": 2.098454,
+          "mean_angle": 82.659943
+        },
+        {
+          "entropy": 2.802562,
+          "tof_skew": 0.603226,
+          "tof_kurt": -0.263855,
+          "transition_entropy": 2.435668,
+          "mean_angle": 78.204921
+        },
+        {
+          "entropy": 2.761092,
+          "tof_skew": 0.516405,
+          "tof_kurt": -0.619743,
+          "transition_entropy": 2.267639,
+          "mean_angle": 76.386663
+        },
+        {
+          "entropy": 2.58695,
+          "tof_skew": 0.402027,
+          "tof_kurt": -0.913118,
+          "transition_entropy": 2.253947,
+          "mean_angle": 108.794571
+        },
+        {
+          "entropy": 2.804466,
+          "tof_skew": 0.570745,
+          "tof_kurt": -0.516954,
+          "transition_entropy": 2.459396,
+          "mean_angle": 82.065037
+        },
+        {
+          "entropy": 2.686965,
+          "tof_skew": 0.262214,
+          "tof_kurt": -1.023427,
+          "transition_entropy": 2.13358,
+          "mean_angle": 81.050868
+        },
+        {
+          "entropy": 2.803865,
+          "tof_skew": 0.654449,
+          "tof_kurt": -0.238447,
+          "transition_entropy": 2.410564,
+          "mean_angle": 77.396474
+        },
+        {
+          "entropy": 2.77627,
+          "tof_skew": 0.496853,
+          "tof_kurt": -0.593976,
+          "transition_entropy": 2.446775,
+          "mean_angle": 86.398421
+        }
+      ]
+    }
+  ],
+  "signature_clusters": {
+    "total_trajectories": 100,
+    "signature_dimensions": 5,
+    "pca_variance_ratio": [
+      0.637,
+      0.2298,
+      0.1274,
+      0.0055,
+      0.0003
+    ],
+    "eigenvalues": [
+      3.217418,
+      1.160362,
+      0.643425,
+      0.027624,
+      0.001676
+    ],
+    "container_centroids": {
+      "cube(s=2.0)": {
+        "x": -1.5301,
+        "y": 0.3434,
+        "spread": 0.3224,
+        "count": 20
+      },
+      "cylinder(r=1.0,h=2.0)": {
+        "x": -0.1793,
+        "y": -0.548,
+        "spread": 0.4346,
+        "count": 20
+      },
+      "ellipsoid(a=1.5,b=1.0,c=0.8)": {
+        "x": 0.7199,
+        "y": -1.5065,
+        "spread": 0.5263,
+        "count": 20
+      },
+      "sinai(s=2.0,obs=0.3)": {
+        "x": -1.9554,
+        "y": 0.562,
+        "spread": 0.1996,
+        "count": 20
+      },
+      "sphere(r=1.0)": {
+        "x": 2.945,
+        "y": 1.1491,
+        "spread": 0.5444,
+        "count": 20
+      }
+    }
+  }
+}

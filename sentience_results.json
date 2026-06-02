@@ -1,0 +1,462 @@
+{
+  "memory_experiments": [
+    {
+      "container": "sphere(r=1.0)",
+      "n_inputs": 20,
+      "memory_accuracy_mean": 1.0,
+      "memory_accuracy_std": 0.0,
+      "memory_retention_mean": 0.085232,
+      "adaptation_rate_mean": 0.025109,
+      "phi_mean": -0.426316,
+      "phi_std": 0.107491
+    },
+    {
+      "container": "cube(s=2.0)",
+      "n_inputs": 20,
+      "memory_accuracy_mean": 0.19125,
+      "memory_accuracy_std": 0.192236,
+      "memory_retention_mean": 0.412273,
+      "adaptation_rate_mean": 0.054739,
+      "phi_mean": -0.133281,
+      "phi_std": 0.099448
+    },
+    {
+      "container": "cylinder(r=1.0,h=2.0)",
+      "n_inputs": 20,
+      "memory_accuracy_mean": 0.57125,
+      "memory_accuracy_std": 0.217984,
+      "memory_retention_mean": 0.247452,
+      "adaptation_rate_mean": 0.054172,
+      "phi_mean": -0.238377,
+      "phi_std": 0.072169
+    },
+    {
+      "container": "ellipsoid(a=1.5,b=1.0,c=0.8)",
+      "n_inputs": 20,
+      "memory_accuracy_mean": 1.0,
+      "memory_accuracy_std": 0.0,
+      "memory_retention_mean": 0.125151,
+      "adaptation_rate_mean": 0.020645,
+      "phi_mean": -0.27001,
+      "phi_std": 0.097232
+    },
+    {
+      "container": "sinai(s=2.0,obs=0.4)",
+      "n_inputs": 20,
+      "memory_accuracy_mean": 0.10375,
+      "memory_accuracy_std": 0.092963,
+      "memory_retention_mean": 0.47314,
+      "adaptation_rate_mean": NaN,
+      "phi_mean": -0.077139,
+      "phi_std": 0.061729
+    },
+    {
+      "container": "torus(R=1.5,r=0.6)",
+      "n_inputs": 20,
+      "memory_accuracy_mean": 0.25,
+      "memory_accuracy_std": 0.433013,
+      "memory_retention_mean": 0.000911,
+      "adaptation_rate_mean": NaN,
+      "phi_mean": -0.25,
+      "phi_std": 0.433013
+    }
+  ],
+  "differentiation_experiments": [
+    {
+      "container": "sphere(r=1.0)",
+      "n_systems": 5,
+      "input": {
+        "pos": [
+          0.1,
+          0.0,
+          0.0
+        ],
+        "dir": [
+          0.863868,
+          0.259161,
+          0.431934
+        ]
+      },
+      "output_divergence_mean": 0.0,
+      "output_divergence_max": 0.0,
+      "output_divergence_min": 0.0
+    },
+    {
+      "container": "cube(s=2.0)",
+      "n_systems": 5,
+      "input": {
+        "pos": [
+          0.1,
+          0.0,
+          0.0
+        ],
+        "dir": [
+          0.863868,
+          0.259161,
+          0.431934
+        ]
+      },
+      "output_divergence_mean": 0.0,
+      "output_divergence_max": 0.0,
+      "output_divergence_min": 0.0
+    },
+    {
+      "container": "cylinder(r=1.0,h=2.0)",
+      "n_systems": 5,
+      "input": {
+        "pos": [
+          0.1,
+          0.0,
+          0.0
+        ],
+        "dir": [
+          0.863868,
+          0.259161,
+          0.431934
+        ]
+      },
+      "output_divergence_mean": 0.0,
+      "output_divergence_max": 0.0,
+      "output_divergence_min": 0.0
+    },
+    {
+      "container": "ellipsoid(a=1.5,b=1.0,c=0.8)",
+      "n_systems": 5,
+      "input": {
+        "pos": [
+          0.1,
+          0.0,
+          0.0
+        ],
+        "dir": [
+          0.863868,
+          0.259161,
+          0.431934
+        ]
+      },
+      "output_divergence_mean": 0.0,
+      "output_divergence_max": 0.0,
+      "output_divergence_min": 0.0
+    },
+    {
+      "container": "sinai(s=2.0,obs=0.4)",
+      "n_systems": 5,
+      "input": {
+        "pos": [
+          0.1,
+          0.0,
+          0.0
+        ],
+        "dir": [
+          0.863868,
+          0.259161,
+          0.431934
+        ]
+      },
+      "output_divergence_mean": 0.0,
+      "output_divergence_max": 0.0,
+      "output_divergence_min": 0.0
+    },
+    {
+      "container": "torus(R=1.5,r=0.6)",
+      "n_systems": 5,
+      "input": {
+        "pos": [
+          0.1,
+          0.0,
+          0.0
+        ],
+        "dir": [
+          0.863868,
+          0.259161,
+          0.431934
+        ]
+      },
+      "output_divergence_mean": 0.0,
+      "output_divergence_max": 0.0,
+      "output_divergence_min": 0.0
+    }
+  ],
+  "recursion_experiments": [
+    {
+      "container": "sphere(r=1.0)",
+      "feedback_strength": 0.0,
+      "periodicity_mean": 1.0,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "sphere(r=1.0)",
+      "feedback_strength": 0.01,
+      "periodicity_mean": 1.0,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "sphere(r=1.0)",
+      "feedback_strength": 0.05,
+      "periodicity_mean": 1.0,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "sphere(r=1.0)",
+      "feedback_strength": 0.1,
+      "periodicity_mean": 1.0,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "sphere(r=1.0)",
+      "feedback_strength": 0.2,
+      "periodicity_mean": 1.0,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "cube(s=2.0)",
+      "feedback_strength": 0.0,
+      "periodicity_mean": 0.629386,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "cube(s=2.0)",
+      "feedback_strength": 0.01,
+      "periodicity_mean": 0.680786,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "cube(s=2.0)",
+      "feedback_strength": 0.05,
+      "periodicity_mean": 0.747746,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "cube(s=2.0)",
+      "feedback_strength": 0.1,
+      "periodicity_mean": 0.897778,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "cube(s=2.0)",
+      "feedback_strength": 0.2,
+      "periodicity_mean": 1.0,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "cylinder(r=1.0,h=2.0)",
+      "feedback_strength": 0.0,
+      "periodicity_mean": 0.969982,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "cylinder(r=1.0,h=2.0)",
+      "feedback_strength": 0.01,
+      "periodicity_mean": 0.956322,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "cylinder(r=1.0,h=2.0)",
+      "feedback_strength": 0.05,
+      "periodicity_mean": 0.990476,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "cylinder(r=1.0,h=2.0)",
+      "feedback_strength": 0.1,
+      "periodicity_mean": 0.991667,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "cylinder(r=1.0,h=2.0)",
+      "feedback_strength": 0.2,
+      "periodicity_mean": 0.933333,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "ellipsoid(a=1.5,b=1.0,c=0.8)",
+      "feedback_strength": 0.0,
+      "periodicity_mean": 1.0,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "ellipsoid(a=1.5,b=1.0,c=0.8)",
+      "feedback_strength": 0.01,
+      "periodicity_mean": 1.0,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "ellipsoid(a=1.5,b=1.0,c=0.8)",
+      "feedback_strength": 0.05,
+      "periodicity_mean": 1.0,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "ellipsoid(a=1.5,b=1.0,c=0.8)",
+      "feedback_strength": 0.1,
+      "periodicity_mean": 1.0,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "ellipsoid(a=1.5,b=1.0,c=0.8)",
+      "feedback_strength": 0.2,
+      "periodicity_mean": 1.0,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "sinai(s=2.0,obs=0.4)",
+      "feedback_strength": 0.0,
+      "periodicity_mean": 0.294603,
+      "periodicity_max": 0.666667
+    },
+    {
+      "container": "sinai(s=2.0,obs=0.4)",
+      "feedback_strength": 0.01,
+      "periodicity_mean": 0.277179,
+      "periodicity_max": 0.666667
+    },
+    {
+      "container": "sinai(s=2.0,obs=0.4)",
+      "feedback_strength": 0.05,
+      "periodicity_mean": 0.425,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "sinai(s=2.0,obs=0.4)",
+      "feedback_strength": 0.1,
+      "periodicity_mean": 0.577778,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "sinai(s=2.0,obs=0.4)",
+      "feedback_strength": 0.2,
+      "periodicity_mean": 0.6,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "torus(R=1.5,r=0.6)",
+      "feedback_strength": 0.0,
+      "periodicity_mean": 0.333333,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "torus(R=1.5,r=0.6)",
+      "feedback_strength": 0.01,
+      "periodicity_mean": 0.333333,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "torus(R=1.5,r=0.6)",
+      "feedback_strength": 0.05,
+      "periodicity_mean": 0.333333,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "torus(R=1.5,r=0.6)",
+      "feedback_strength": 0.1,
+      "periodicity_mean": 0.333333,
+      "periodicity_max": 1.0
+    },
+    {
+      "container": "torus(R=1.5,r=0.6)",
+      "feedback_strength": 0.2,
+      "periodicity_mean": 0.333333,
+      "periodicity_max": 1.0
+    }
+  ],
+  "phi_comparison": [
+    {
+      "container": "sphere(r=1.0)",
+      "phi_mean": -0.392538,
+      "phi_std": 0.075578,
+      "phi_max": -0.233115,
+      "phi_min": -0.552955
+    },
+    {
+      "container": "cube(s=2.0)",
+      "phi_mean": -0.080612,
+      "phi_std": 0.089718,
+      "phi_max": -0.003407,
+      "phi_min": -0.366904
+    },
+    {
+      "container": "cylinder(r=1.0,h=2.0)",
+      "phi_mean": -0.254337,
+      "phi_std": 0.12538,
+      "phi_max": -0.063645,
+      "phi_min": -0.644162
+    },
+    {
+      "container": "ellipsoid(a=1.5,b=1.0,c=0.8)",
+      "phi_mean": -0.247282,
+      "phi_std": 0.032276,
+      "phi_max": -0.200784,
+      "phi_min": -0.328874
+    },
+    {
+      "container": "sinai(s=2.0,obs=0.4)",
+      "phi_mean": -0.092052,
+      "phi_std": 0.180178,
+      "phi_max": 0.0,
+      "phi_min": -1.0
+    },
+    {
+      "container": "torus(R=1.5,r=0.6)",
+      "phi_mean": -0.3,
+      "phi_std": 0.458258,
+      "phi_max": 0.0,
+      "phi_min": -1.0
+    }
+  ],
+  "sentience_scores": [
+    {
+      "container": "ellipsoid(a=1.5,b=1.0,c=0.8)",
+      "memory": 1.0,
+      "phi": -0.247282,
+      "differentiation": 0.0,
+      "adaptation": 0.020645,
+      "composite_sentience_score": 0.612908
+    },
+    {
+      "container": "sphere(r=1.0)",
+      "memory": 1.0,
+      "phi": -0.392538,
+      "differentiation": 0.0,
+      "adaptation": 0.025109,
+      "composite_sentience_score": 0.591119
+    },
+    {
+      "container": "sinai(s=2.0,obs=0.4)",
+      "memory": 0.10375,
+      "phi": -0.092052,
+      "differentiation": 0.0,
+      "adaptation": NaN,
+      "composite_sentience_score": NaN
+    },
+    {
+      "container": "torus(R=1.5,r=0.6)",
+      "memory": 0.25,
+      "phi": -0.3,
+      "differentiation": 0.0,
+      "adaptation": NaN,
+      "composite_sentience_score": NaN
+    },
+    {
+      "container": "cylinder(r=1.0,h=2.0)",
+      "memory": 0.57125,
+      "phi": -0.254337,
+      "differentiation": 0.0,
+      "adaptation": 0.054172,
+      "composite_sentience_score": 0.483224
+    },
+    {
+      "container": "cube(s=2.0)",
+      "memory": 0.19125,
+      "phi": -0.080612,
+      "differentiation": 0.0,
+      "adaptation": 0.054739,
+      "composite_sentience_score": 0.395283
+    }
+  ],
+  "summary": {
+    "total_containers_tested": 6,
+    "total_experiments": 4,
+    "highest_sentience_container": "ellipsoid(a=1.5,b=1.0,c=0.8)",
+    "highest_sentience_score": 0.612908
+  }
+}
